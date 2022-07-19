@@ -8,7 +8,7 @@ body {
 .cover-container {
     display: flex;
     width: 1250px;
-    height: 591px;
+    height: 500px;
     background-color: rgb(15, 15, 15);
     border-radius: 50px;
     margin-left: 50px;
@@ -37,12 +37,14 @@ h1 {
 }
 
 .cover-image {
-    margin-left: 100px;
+    margin-left: 200px;
 }
+
 
 .cover-image,
 img {
-    width: 80%;
+    width: 100%;
+
 }
 
 .Watch-Live {
@@ -57,6 +59,12 @@ img {
 }
 
 /* End of first part css  */
+.all-main {
+    margin-bottom: 100px;
+    display: flex;
+
+}
+
 .samll-box-xontainer {
     height: 210px;
     width: 250px;
@@ -116,4 +124,50 @@ img {
     font-size: 2ex;
     font-weight: 800;
     text-decoration: none;
+}
+
+/* player box start here  */
+.player-box-main-1 {
+    height: 290px;
+    width: 250px;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 10px;
+    font-size: 2ex;
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+
+.sm-box {
+    height: 25px;
+    width: 80px;
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+}
+
+.player-box-main-1,
+.big-box-1,
+img {
+    width: 250px;
+}
+
+.live {
+    margin-left: 10px;
+}
+
+.icone {
+    display: flex;
+}
+
+.message {
+    margin-left: 50px;
+}
+
+.time {
+    margin-left: 10px;
 }
