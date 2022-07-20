@@ -37,13 +37,12 @@ h1 {
 }
 
 .cover-image {
-    margin-left: 200px;
+    margin-left: 50px;
 }
 
 
-.cover-image,
-img {
-    width: 100%;
+.cover-image img {
+    width: 148%;
 
 }
 
@@ -151,8 +150,7 @@ img {
 }
 
 .player-box-main-1,
-.big-box-1,
-img {
+.big-box-1 img {
     width: 250px;
 }
 
@@ -170,4 +168,9 @@ img {
 
 .time {
     margin-left: 10px;
+}
+
+.player-box-main-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
